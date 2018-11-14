@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main {
@@ -35,34 +36,50 @@ public class Main {
 //            System.out.println("YES");
 //        }
         //03
-        int n=scn.nextInt();
-        for (int i=1;i<=n;i++){
-            int li=scn.nextInt();
-            int ri=scn.nextInt();
-            int mi=scn.nextInt();
-            int sumi=li+ri+mi;
-            int fcount=0;
-            if (li<60){
-                fcount=fcount+1;
-            }
-            if (ri<60){
-                fcount=fcount+1;
-            }
-            if (mi<60){
-                fcount=fcount+1;
-            }
-            if (fcount==0){
-                System.out.println("P");
-            }else if (fcount==1&&sumi>=220){
-                System.out.println("P");
-            }else if (fcount==1){
-                System.out.println("M");
-            }else if (fcount==2&&Math.max(Math.max(li,ri),mi)>=80){
-                System.out.println("M");
-            }else {
-                System.out.println("F");
-            }
+//        int n=scn.nextInt();
+//        for (int i=1;i<=n;i++){
+//            int li=scn.nextInt();
+//            int ri=scn.nextInt();
+//            int mi=scn.nextInt();
+//            int sumi=li+ri+mi;
+//            int fcount=0;
+//            if (li<60){
+//                fcount=fcount+1;
+//            }
+//            if (ri<60){
+//                fcount=fcount+1;
+//            }
+//            if (mi<60){
+//                fcount=fcount+1;
+//            }
+//            if (fcount==0){
+//                System.out.println("P");
+//            }else if (fcount==1&&sumi>=220){
+//                System.out.println("P");
+//            }else if (fcount==1){
+//                System.out.println("M");
+//            }else if (fcount==2&&Math.max(Math.max(li,ri),mi)>=80){
+//                System.out.println("M");
+//            }else {
+//                System.out.println("F");
+//            }
+        //05
+//        int n=scn.nextInt();
+//        for (int i=0 ;i<n;i++){
+//            String str=scn.nextLine();
+//            int sum=0;
+//            for (int j=0;j<str.length();j++){
+//                sum+=(int)str.charAt(j);
+//            }
+//            System.out.println(sum);
+//        }
+        //06
+//        int n=scn.nextInt(),sum=0;
+//        for (int i=1;i<=n;i++){
+//            sum+=i*(i+1);
+//        }
+//        System.out.println(sum);
 
-        }
+
     }
 }
